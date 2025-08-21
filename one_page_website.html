@@ -1,0 +1,18 @@
+<!-- Gallery Section -->
+<section id="gallery">
+  <h2>Image Gallery</h2>
+  <div class="gallery">
+    <img src="images/img1-small.jpg" alt="Image 1" onclick="openModal('images/img1-large.jpg')">
+    <img src="images/img2-small.jpg" alt="Image 2" onclick="openModal('images/img2-large.jpg')">
+    <img src="images/img3-small.jpg" alt="Image 3" onclick="openModal('images/img3-large.jpg')">
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" onclick="closeModal()">
+  <span class="close">&times;</span>
+  <img id="lightbox-img" class="lightbox-content">
+</div>
+
+<!-- Link JS -->
+<script src="JS/one_page_website.js"></script>
